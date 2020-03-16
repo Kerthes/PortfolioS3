@@ -1,0 +1,114 @@
+html, body{
+    background-color: azure;
+    color: darkcyan;
+    margin: 2%;  /* ma marge de chaque côté miqe à 2% de l'écran*/
+}
+
+h2{
+    background-color: cadetblue;
+    color : aliceblue;
+}
+
+p{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+article{
+    text-align: center;
+    width: 50%;
+}
+
+a:link{
+    color : darkcyan;
+}
+
+a:visited{
+    color: darkcyan;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    margin: 10px;
+}
+
+.menu{
+    text-align: right;
+    font-size: 35px;
+}
+
+.presentation{
+    text-align: center;
+    display: table-cell;
+    padding-right: 2%;
+}
+
+.info{
+    display: table-cell;
+}
+
+.photo{
+    width: 25%;
+    height: auto;
+}
+
+.prj{
+    border: 2px solid;
+    text-align: center;
+}
+
+.listeprj{
+    text-align: center;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.container{
+    width:540px;
+    margin:40px auto;
+    overflow:auto;
+}
+
+.slider-inner{
+    width:500px;
+    height:300px;
+    position:relative;
+    overflow:hidden;
+    float:left;
+    padding:3px;
+    border:#666 solid 1px;
+}
+
+.slider-inner img{
+    display:none;
+    width:500px;
+    height:300px;
+}
+
+.slider-inner img.active{
+    display:inline-block;
+}
+
+.prev,.next{
+    float:left;
+    margin-top:130px;
+    cursor: pointer;
+}
+
+.prev{
+    position:relative;
+    margin-right:-45px;
+    z-index:100;
+}
+
+.next{
+    position:relative;
+    margin-left:-45px;
+    z-index:100;
+}
